@@ -1,0 +1,44 @@
+{
+  "name": "falcon_anime",
+  "version": "1.0.0",
+  "description": "anime streaming API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falcon71181/falcon_anime.git"
+  },
+  "keywords": [
+    "ani",
+    "anime",
+    "falcon",
+    "falcon71181"
+  ],
+  "author": "falcon71181",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/falcon71181/falcon_anime/issues"
+  },
+  "homepage": "https://github.com/falcon71181/falcon_anime#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.12",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1",
+    "node-fetch": "^3.3.2",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0"
+  }
+}
